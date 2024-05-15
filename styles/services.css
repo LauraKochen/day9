@@ -211,6 +211,9 @@ nav a {
   grid-template-rows: repeat(3, 4.75rem);
   gap: 0.5rem;
   grid-auto-flow: column;
+  grid-auto-columns: 4.75rem;
+  justify-content: center;
+  /* the center justifys the content in the container ie the text  in the boxes */
   /* grid-auto-rows: 1fr; */
   /* explicit grid */
 }
